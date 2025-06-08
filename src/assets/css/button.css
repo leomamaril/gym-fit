@@ -1,0 +1,72 @@
+.gf-btn-primary {
+    border: var(--gf-accent) 2px solid;
+    color: var(--gf-white);
+    font-size: var(--gf-fs-btn);
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: var(--gf-accent);
+    padding: 3px 20px;
+    transition: background 0.3s ease;
+}
+
+.gf-btn-primary:hover {
+    border: var(--gf-accent) 2px solid;
+    color: var(--gf-accent);
+    background-color: var(--gf-white);
+   
+}
+
+.gf-btn-outline {
+    border: var(--gf-accent) 2px solid;
+    color: var(--gf-accent);
+    text-decoration: none;
+    font-size: var(--gf-fs-btn);
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 3px 20px;
+    transition: background 0.3s ease;
+}
+
+.gf-btn-outline:hover {
+    border: var(--gf-accent) 2px solid;
+    color: var(--gf-accent);
+    background-color: var(--gf-white);
+}
+
+
+.gf-btn {
+    border: none;
+    color: var(--gf-accent);
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: background 0.3s ease;
+}
+
+.gf-btn:hover {
+    color: var(--gf-white) !important;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.gf-btn-next,
+.gf-btn-prev {
+    z-index: 10;
+    background: var(--gf-accent);
+    color: var(--gf-white);
+    border: var(--gf-accent) 2px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.gf-btn-next:hover,
+.gf-btn-prev:hover {
+    background: var(--gf-white);
+    color: var(--gf-accent);
+    border: var(--gf-accent) 2px solid;
+}
