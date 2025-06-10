@@ -85,20 +85,20 @@ export default function AboutUs() {
               </p>
             </div>
 
-            <button
-              to="/about"
+            <Link
+              to="/aboutus"
               className="d-none d-md-block gf-btn-primary font-btn mt-3 text-center"
             >
               learn more about us
-            </button>
+            </Link>
             {/* Mobile */}
             <div className="d-flex d-md-none justify-content-center gap-3 mt-3 w-100">
-              <button
-                to="/about"
+              <Link
+                to="/aboutus"
                 className="gf-btn-primary w-100 font-btn  text-center"
               >
                 learn more about us
-              </button>
+              </Link>
             </div>
           </div>
 
