@@ -63,7 +63,7 @@ export default function WorkoutClasses() {
                   className="gf-btn-prev carousel-button carousel-button-prev mx-3"
                   aria-label="Previous slide"
                 >
-                  <img src={vector1} alt="Previous" />
+                  <img src={vector2} alt="Previous" />
                 </button>
                 <button
                   onClick={nextSlide}
@@ -80,7 +80,7 @@ export default function WorkoutClasses() {
                 className="gf-btn-prev mx-3"
                 aria-label="Previous slide"
               >
-                <img src={vector1} alt="Previous" />
+                <img src={vector2} alt="Previous" />
               </button>
               <button
                 onClick={nextSlide}
@@ -106,15 +106,15 @@ export default function WorkoutClasses() {
         </div>
         <div className="d-none d-sm-block">
             <div className="d-flex w-100 justify-content-center my-4">
-              <button to="/classes#classes" className="gf-btn-primary w-50 text-center bebas font-btn">
+              <Link to="/classes#classes" className="gf-btn-primary w-50 text-center bebas font-btn">
                 View All Classes
-              </button>
+              </Link>
             </div>
           </div>
           <div className="d-flex d-sm-none justify-content-center my-4 w-100">
-            <button  to="#classes" className="gf-btn-primary w-100 font-btn text-center">
+            <Link  to="#classes" className="gf-btn-primary w-100 font-btn text-center">
               View All Classes
-            </button>
+            </Link>
           </div>
       </div>
     </section>
