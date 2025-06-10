@@ -132,12 +132,12 @@ export default function WorkoutClasses() {
             get started!
           </p>
           <div className="d-flex flex-row gap-3 justify-content-center py-3">
-            <button to="/pricing" className="gf-btn-primary font-btn">
+            <Link to="/contacts" className="gf-btn-primary font-btn">
               CONTACT US
-            </button>
-            <button to="/consultation" className="gf-btn-outline font-btn">
+            </Link>
+            <Link to="/consultation" className="gf-btn-outline font-btn">
               BOOK A CONSULTATION
-            </button>
+            </Link>
           </div>
         </div>
       </div>
