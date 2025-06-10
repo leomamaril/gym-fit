@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { WORKOUT_HEADLINE } from "../../data/workoutData";
 import { ClassesCard } from "../../components/card";
+import { Link } from "react-router-dom";
 import vector1 from '../../assets/icon/1.png'
 import vector2 from '../../assets/icon/2.png'
 export default function WorkoutClasses() {
