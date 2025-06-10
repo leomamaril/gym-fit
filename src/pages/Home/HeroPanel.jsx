@@ -15,15 +15,15 @@ export default function HeroPanel() {
 
           <div className="col-12 col-md-5 d-none d-lg-block order-2 pb-3">
             <div className="d-flex flex-md-row flex-column gap-4 justify-content-end">
-              <button to="/consultation" className="gf-btn-primary text-center">
+              <Link to="/consultation" className="gf-btn-primary text-center">
                 Book A Consultation
-              </button>
-              <button
+              </Link>
+              <Link
                 to="/classes"
                 className="gf-btn-outline font-btn text-center"
               >
                 Browse Class
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -56,18 +56,15 @@ export default function HeroPanel() {
             </div>
             {/* Mobile */}
             <div className="d-flex d-lg-none justify-content-center gap-3 mt-3 w-100">
-              <button
-                to="/pricing"
-                className="gf-btn-primary w-100 font-btn  text-center"
+              <Link to="/consultation" className="gf-btn-primary text-center">
+                Book A Consultation
+              </Link>
+              <Link
+                to="/classes"
+                className="gf-btn-outline font-btn text-center"
               >
-                BE A MEMBER
-              </button>
-              <button
-                to="/about"
-                className="gf-btn-outline w-100 font-btn  text-center"
-              >
-                Learn More
-              </button>
+                Browse Class
+              </Link>
             </div>
           </div>
 
