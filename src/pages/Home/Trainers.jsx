@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { TRAINER } from "../../data/trainerData";
+import { Link } from "react-router-dom";
 import { TrainerCard } from "../../components/card";
 import vector1 from "../../assets/icon/1.png";
 import vector2 from "../../assets/icon/2.png";
@@ -103,21 +104,21 @@ export default function WorkoutClasses() {
         </div>
         <div className="d-none d-sm-block">
           <div className="d-flex w-100 justify-content-center my-4">
-            <button
-              to="/classes#classes"
+            <Link
+              to="/aboutus"
               className="gf-btn-primary w-50 text-center bebas font-btn"
             >
-              View All Classes
-            </button>
+              View All Trainers
+            </Link>
           </div>
         </div>
         <div className="d-flex d-sm-none justify-content-center my-4 w-100">
-          <button
-            to="#classes"
+          <Link
+            to="/aboutus"
             className="gf-btn-primary w-100 font-btn text-center"
           >
-            View All Classes
-          </button>
+            View All Trainers
+          </Link>
         </div>
       </div>
 
